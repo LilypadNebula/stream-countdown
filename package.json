@@ -1,0 +1,31 @@
+{
+  "name": "web-timer",
+  "version": "1.0.0",
+  "description": "An easy to use count down accessible on the web for streamers or any other needs",
+  "author": "Lily",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "moment": "^2.22.2",
+    "nuxt": "^2.0.0",
+    "typeface-nosifer": "^0.0.54",
+    "typeface-open-sans": "^0.0.54",
+    "typeface-parisienne": "^0.0.54",
+    "typeface-press-start-2p": "^0.0.54",
+    "verte": "^0.0.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.6.4",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "nodemon": "^1.11.0",
+    "prettier": "1.14.3",
+    "tailwindcss": "~0.6.6"
+  }
+}
