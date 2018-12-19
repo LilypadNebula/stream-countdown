@@ -1,5 +1,8 @@
 <template>
-  <p :style="{fontFamily:font,fontSize:'20em',color:color,textAlign:'center'}">{{display}}</p>
+  <p
+    :style="{fontFamily:font,fontSize:'20em',color:color}"
+    class="text-center break-words"
+  >{{display}}</p>
 </template>
 
 <script>
